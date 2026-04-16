@@ -1,0 +1,21 @@
+# Terraform state — NE JAMAIS committer
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Variables avec secrets
+terraform.tfvars
+*.auto.tfvars
+
+# Répertoires Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Plans Terraform
+*.tfplan
+*.plan
+
+# Clés et certificats
+*.pem
+*.key
+*.crt
