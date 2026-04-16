@@ -1,4 +1,4 @@
-# Terraform state — NE JAMAIS committer
+# Terraform state - NE JAMAIS committer
 *.tfstate
 *.tfstate.*
 *.tfstate.backup
@@ -7,7 +7,7 @@
 terraform.tfvars
 *.auto.tfvars
 
-# Répertoires Terraform
+# Repertoires Terraform
 .terraform/
 .terraform.lock.hcl
 
@@ -15,7 +15,7 @@ terraform.tfvars
 *.tfplan
 *.plan
 
-# Clés et certificats
+# Cles et certificats
 *.pem
 *.key
 *.crt
