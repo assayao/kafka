@@ -198,6 +198,7 @@ variable "broker_memory_gb" {
 variable "broker_image_ocid" {
   description = "OCID de l'image Oracle Linux 8 (ou Ubuntu 22.04) pour les brokers"
   type        = string
+  default     = ""
   # Remplacer par l'OCID correspondant à votre région
   # Oracle Linux 8 : disponible via oci_core_images data source
 }
